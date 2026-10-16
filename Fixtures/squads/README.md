@@ -14,7 +14,7 @@ They're used two ways:
   sizes. Numbers only; no image is shipped. Rebuild after adding or changing a screenshot:
 
   ```
-  dotnet run --project src/EndHud.Cli -c Release -- build-portrait-references tests/EndHud.Vision.Tests/Fixtures/squads/squads.json src/EndHud.Vision/Assets/operator-portraits.json
+  dotnet run --project src/EndHud.Cli -c Release -- build-portrait-references tests/data/Fixtures/squads/squads.json src/EndHud.Vision/Assets/operator-portraits.json
   ```
 
 A new operator needs nothing here to be recognised (EndHud falls back to the wiki avatar), but a
