@@ -3,7 +3,7 @@
 The HUD as the game draws it for a controller: the squad in a diamond bottom-left (slot 1 left,
 2 top, 3 right, 4 bottom), the skill buttons in a diamond bottom-right, an "LB" badge in each.
 Holding LB spreads the squad 16 px further out around a D-pad. From the owner's recordings
-battle_controller.mp4, battle_controller_test1.mp4 and battle_controller_test2.mp4 (3838x2158), UID blacked out. Kept out of the sweeps over `Fixtures/*`.
+battle_controller.mp4, battle_controller_test1.mp4, battle_controller_test2.mp4 and battle_controller_test4.mp4 (3838x2158), UID blacked out. Kept out of the sweeps over `Fixtures/*`.
 
 Squad: Camille, Laevatain, Si, Arcane. Values read off the frames (bar crops) and match the readers.
 
@@ -18,6 +18,9 @@ Squad: Camille, Laevatain, Si, Arcane. Values read off the frames (bar crops) an
 | `lb-held-again.jpg` | 48.2 s | LB held; combos ~86% / ready / ~82% / ready; HP 78% / 100% / 72% / 100%. |
 | `three-fallen.jpg` | second recording, 221.0 s | Slots 1, 3 and 4 fallen (⊘ on a hatched square, same size as keyboard and mouse); slot 2 fighting at low HP. |
 | `another-squad.jpg` | third recording, 49.5 s | Another squad: Zhuang Fangyi, Perlica, Arcane, Liino; slot 1 controlled. |
+| `ultimates-two-ready.jpg` | fourth recording, 19.0 s | Ultimates (skill diamond dots): slots 1 and 3 ready (plain colour in a light ring); slot 2 ~67%, slot 4 ~47% (pale arc from 12 o'clock). |
+| `ultimates-charging-one-ready.jpg` | fourth recording, 71.0 s | Ultimates ~33% / ~53% / ready / ~28%. |
+| `ultimates-charging.jpg` | fourth recording, 86.0 s | Ultimates ~33% / ~60% / ~48% / ~33%. |
 | `photo-mode.jpg` | 22.5 s | Photo mode: HUD hidden. |
 | `target-wheel.jpg` | 31.4 s | LT held (target wheel): HUD hidden. |
 | `keyboard-mouse-same-fight.jpg` | 64.0 s | The player touched the keyboard: the same fight in the keyboard-and-mouse layout. |
