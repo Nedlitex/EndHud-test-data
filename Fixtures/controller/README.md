@@ -3,7 +3,7 @@
 The HUD as the game draws it for a controller: the squad in a diamond bottom-left (slot 1 left,
 2 top, 3 right, 4 bottom), the skill buttons in a diamond bottom-right, an "LB" badge in each.
 Holding LB spreads the squad 16 px further out around a D-pad. From the owner's recordings
-battle_controller.mp4, battle_controller_test1.mp4, battle_controller_test2.mp4, battle_controller_test4.mp4 battle_controller_test_fullbattle2.mp4 ("full battle 2") and battle_controller_test_lesspeople.mp4 ("fewer-operators recording") (3838x2158), UID blacked out. Kept out of the sweeps over `Fixtures/*`.
+battle_controller.mp4, battle_controller_test1.mp4, battle_controller_test2.mp4, battle_controller_test4.mp4 battle_controller_test_fullbattle2.mp4 ("full battle 2"), battle_controller_test_fullbattle3.mp4 ("full battle 3") and battle_controller_test_lesspeople.mp4 ("fewer-operators recording") (3838x2158), UID blacked out. Kept out of the sweeps over `Fixtures/*`.
 
 Squad: Camille, Laevatain, Si, Arcane. Values read off the frames (bar crops) and match the readers.
 
@@ -27,6 +27,8 @@ Squad: Camille, Laevatain, Si, Arcane. Values read off the frames (bar crops) an
 | `fullbattle-ultimate-almost-full.jpg` | full battle 2, 59.5 s | Ultimates ~65% / ~50% / ~50% / nearly full but not ready (no light ring). |
 | `fullbattle-two-ready-two-almost-full.jpg` | full battle 2, 83.5 s | Ultimates ready / nearly full / ~80% / ready. |
 | `two-operators.jpg` | fewer-operators recording, 179.0 s | A squad of two (Arcane left, Camille top): the right and bottom places show the empty ring with a slash; ultimates ready / ~89%. |
+| `fullbattle3-laevatain-two-flames.jpg` | full battle 3, 68.0 s | Laevatain controlled (slot 2), her flower at II. |
+| `fullbattle3-si-ultimate-cutscene.jpg` | full battle 3, 70.5 s | Si's ultimate: a cyan cutscene over the whole screen, no HUD; pink in it read as a full flower. |
 | `photo-mode.jpg` | 22.5 s | Photo mode: HUD hidden. |
 | `target-wheel.jpg` | 31.4 s | LT held (target wheel): HUD hidden. |
 | `keyboard-mouse-same-fight.jpg` | 64.0 s | The player touched the keyboard: the same fight in the keyboard-and-mouse layout. |
