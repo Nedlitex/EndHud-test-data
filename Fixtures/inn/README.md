@@ -38,6 +38,7 @@ as served too.
 | `menu-drinks.jpg` | test_yuanyuan2 96 s | the drinks tab, 8/8 dishes and 0/8 drinks chosen; the eight drinks (瓶装霞莓饮, 潮前龙井, 陈酿葡萄露, 瓶装优质兽奶, 游人酒, 梨花香茶, 瓶装脆蔗汁, 玉米汁); stock 库存∞ |
 | `dispatch-panel-queue.jpg` | test_yuanyuan2 108 s | 派单 for 厨房一 (大厨佩丽卡, 大厨艾维文娜), 珍馐 18 %, timer 04:52 at the top; one dish queued, 白瓜肉丸汤 cooking with 40 s left, two empty slots. T1 点餐中, the rest empty |
 | `session-fire-meter.jpg` | test_yuanyuan2 141 s | timer 04:25; fire 0/100, streak 0; T1 白瓜肉丸汤 + 瓶装霞莓饮 (served); T2 茄果鳞肉汤 + 果味沙拉 (two dishes); T3 点餐中; T4–T6 empty |
+| `menu-soup-theme.jpg` | owner screenshot, 2026-10-19 | 菜单设定 for theme 舌上清流 (4 stars): 4级客栈要求 至少需要3种不同的类型的菜品 / 至少需要6道菜品和3种饮品; 经营主题要求 至少有1道[汤羹]类菜品; 主题热门 汤羹 饮品; 主题加分项 出售10道[汤羹]类菜品; all-dishes tab, 0/8 dishes and 0/8 drinks chosen, stock ∞; no EndHud panel on screen |
 
 ## The chef picker's grid (`chef-picker.jpg`)
 
@@ -54,4 +55,3 @@ element; all twelve agree.
 | 1 | 黎风 (主食 汤羹; 咸) | 莱万汀 (菜肴 珍馐; 辣) | 伊冯 (甜品 甜品; 鲜) | 大潘 (主食 菜肴; 咸) |
 | 2 | 秋栗 (主食 主食; 辣) | 卡契尔 (主食 菜肴; 咸) | 埃特拉 (菜肴 珍馐; 鲜) | 萤石 (汤羹 珍馐; 酸) |
 | 3 | 安塔尔 (珍馐 珍馐; 甜) | 阿列什 (主食 汤羹; 鲜) | 艾尔黛拉 (菜肴 汤羹; 酸) | 别礼 (主食 珍馐; 鲜) |
-| `menu-soup-theme.jpg` | owner screenshot, 2026-10-19 | 菜单设定 for theme 舌上清流 (4 stars): 4级客栈要求 至少需要3种不同的类型的菜品 / 至少需要6道菜品和3种饮品; 经营主题要求 至少有1道[汤羹]类菜品; 主题热门 汤羹 饮品; 主题加分项 出售10道[汤羹]类菜品; all-dishes tab, 0/8 dishes and 0/8 drinks chosen, stock ∞; no EndHud panel on screen |
