@@ -32,8 +32,24 @@ turn green with the smileys.
 | `session-closed.jpg` | test_yuanyuan1 451 s | timer 00:00 in red and the "即将打烊" banner. T1 麻辣香锅 + 潮前龙井 (being made); T2 empty; T3 白瓜肉丸汤 + 瓶装优质兽奶 (ready); T4 用餐中; T5 点餐中; T6 雪绵豆沙 + 麻辣香锅 (ready); fire full (ready), streak 36 |
 | `setup-theme.jpg` | test_yuanyuan2 42 s | the theme list (//主题设定), 养身心 selected (no stars): objective 开启2次满堂彩, requirement 至少有2道带有[素食]或[滋补]特性的菜品, hot traits 素食 滋补 |
 | `setup-chefs-placed.jpg` | test_yuanyuan2 60 s | kitchen 1 大厨佩丽卡 + 大厨艾维文娜, kitchen 2 大厨陈千语, kitchen 3 empty |
-| `chef-picker.jpg` | test_yuanyuan2 75 s | 厨房一's chef picker, 2/2 chosen: 大厨佩丽卡 (菜肴, 珍馐; 甜) and 大厨艾维文娜 (菜肴, 甜品; 甜); totals 菜肴 +20 %, 甜品 +10 %, 珍馐 +5 %, 甜 +10 %; the grid of other operators' cards, no names |
+| `chef-picker.jpg` | test_yuanyuan2 75 s | 厨房一's chef picker, 2/2 chosen: 大厨佩丽卡 (菜肴, 珍馐; 甜) and 大厨艾维文娜 (菜肴, 甜品; 甜); totals 菜肴 +20 %, 甜品 +10 %, 珍馐 +5 %, 甜 +10 %; the grid of other operators' cards, no names (who they are: below) |
 | `menu-dishes.jpg` | test_yuanyuan2 66 s | 菜单设定, all dishes tab, 2/8 dishes chosen (白瓜肉丸汤, 莓果甜汤), 0/8 drinks; requirements (Rating 4: ≥3 types, ≥6 dishes and 3 drinks); stock 可烹饪∞ |
 | `menu-drinks.jpg` | test_yuanyuan2 96 s | the drinks tab, 8/8 dishes and 0/8 drinks chosen; the eight drinks (瓶装霞莓饮, 潮前龙井, 陈酿葡萄露, 瓶装优质兽奶, 游人酒, 梨花香茶, 瓶装脆蔗汁, 玉米汁); stock 库存∞ |
 | `dispatch-panel-queue.jpg` | test_yuanyuan2 108 s | 派单 for 厨房一 (大厨佩丽卡, 大厨艾维文娜), 珍馐 18 %, timer 04:52 at the top; one dish queued, 白瓜肉丸汤 cooking with 40 s left, two empty slots. T1 点餐中, the rest empty |
 | `session-fire-meter.jpg` | test_yuanyuan2 141 s | timer 04:25; fire 0/100, streak 0; T1 白瓜肉丸汤 + 瓶装霞莓饮 (ready); T2 茄果鳞肉汤 + 果味沙拉 (two dishes); T3 点餐中; T4–T6 empty |
+
+## The chef picker's grid (`chef-picker.jpg`)
+
+Four columns of cards, the card's left edge at x ≈ 109 + 270.5·(c−1) (240 px wide); each card's
+dark "暂无安排" bar at y ≈ 545 + 425.5·(r−1). Under the bar, two bonus icons (a gold square with a
+bowl = 主食, green = 菜肴, blue = 汤羹, red = 甜品, a yellow circle with a cloche = 珍馐) and the
+flavor chip. A fourth row is cut off by the list's bottom edge (not readable). Each card was named
+by comparing its portrait with the operator package's wiki avatar (`icons/<id>.png`: the same
+drawing, cropped to the head) and checking its icons and flavor against the operator's hobbies and
+element; all twelve agree.
+
+| Row | Column 1 | Column 2 | Column 3 | Column 4 |
+|---|---|---|---|---|
+| 1 | 黎风 (主食 汤羹; 咸) | 莱万汀 (菜肴 珍馐; 辣) | 伊冯 (甜品 甜品; 鲜) | 大潘 (主食 菜肴; 咸) |
+| 2 | 秋栗 (主食 主食; 辣) | 卡契尔 (主食 菜肴; 咸) | 埃特拉 (菜肴 珍馐; 鲜) | 萤石 (汤羹 珍馐; 酸) |
+| 3 | 安塔尔 (珍馐 珍馐; 甜) | 阿列什 (主食 汤羹; 鲜) | 艾尔黛拉 (菜肴 汤羹; 酸) | 别礼 (主食 珍馐; 鲜) |
