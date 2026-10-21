@@ -39,6 +39,10 @@ as served too.
 | `menu-drinks.jpg` | test_yuanyuan2 96 s | the drinks tab, 8/8 dishes and 0/8 drinks chosen; the eight drinks (瓶装霞莓饮, 潮前龙井, 陈酿葡萄露, 瓶装优质兽奶, 游人酒, 梨花香茶, 瓶装脆蔗汁, 玉米汁); stock 库存∞ |
 | `dispatch-panel-queue.jpg` | test_yuanyuan2 108 s | 派单 for 厨房一 (大厨佩丽卡, 大厨艾维文娜), 珍馐 18 %, timer 04:52 at the top; one dish queued, 白瓜肉丸汤 cooking with 40 s left, two empty slots. T1 点餐中, the rest empty |
 | `session-fire-meter.jpg` | test_yuanyuan2 141 s | timer 04:25; fire 0/100, streak 0; T1 白瓜肉丸汤 + 瓶装霞莓饮 (served); T2 茄果鳞肉汤 + 果味沙拉 (two dishes); T3 点餐中; T4–T6 empty |
+| `session-gourmand-panel.jpg` | owner's live session 2026-10-20 (test_yuanyuan3), 4:26 | timer 02:16, EndHud's banners at the left middle and its gourmand panel at the top right (table 4: 不辣的、不咸的汤羹 + 茶香的). T1 茄果鳞肉汤 + 瓶装霞莓饮 (served); T2 莓果甜汤 + "勺里游"; T3 用餐中; T4 gourmand order, 2 category icons; T5 白瓜肉丸汤 + 瓶装霞莓饮 (served); T6 待结账 |
+| `session-hud-faded.jpg` | the same session, 4:29 | the HUD faded out while the camera moves (timer 02:13 faint): no inn screen is found and every table card reads empty, though table 4's gourmand order is still open |
+| `dispatch-panel-banners.jpg` | the same session, 4:32 | the 派单 panel for 厨房二, timer 02:10; its cards 至臻鳞肉卷 22 s, 白瓜肉丸汤 23 s, 莓果甜汤 23 s, 果味沙拉 18 s, "勺里游" 20 s, 茄果鳞肉汤 21 s; EndHud's banners over the panel's chef column (厨房二 预做：至臻鳞肉卷 among them). T4 gourmand order |
+| `session-gourmand-still-open.jpg` | the same session, 4:35 | timer 02:07, the HUD fading back in; T4 still a gourmand order, EndHud's gourmand panel gone (the bug of 2026-10-20) |
 | `menu-soup-theme.jpg` | owner screenshot, 2026-10-19 | 菜单设定 for theme 舌上清流 (4 stars): 4级客栈要求 至少需要3种不同的类型的菜品 / 至少需要6道菜品和3种饮品; 经营主题要求 至少有1道[汤羹]类菜品; 主题热门 汤羹 饮品; 主题加分项 出售10道[汤羹]类菜品; all-dishes tab, 0/8 dishes and 0/8 drinks chosen, stock ∞; no EndHud panel on screen |
 
 ## The chef picker's grid (`chef-picker.jpg`)
