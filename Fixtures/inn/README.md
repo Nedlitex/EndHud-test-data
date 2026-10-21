@@ -44,6 +44,13 @@ as served too.
 | `dispatch-panel-banners.jpg` | the same session, 4:32 | the 派单 panel for 厨房二, timer 02:10; its cards 至臻鳞肉卷 22 s, 白瓜肉丸汤 23 s, 莓果甜汤 23 s, 果味沙拉 18 s, "勺里游" 20 s, 茄果鳞肉汤 21 s; EndHud's banners over the panel's chef column (厨房二 预做：至臻鳞肉卷 among them). T4 gourmand order |
 | `session-gourmand-still-open.jpg` | the same session, 4:35 | timer 02:07, the HUD fading back in; T4 still a gourmand order, EndHud's gourmand panel gone (the bug of 2026-10-20) |
 | `menu-soup-theme.jpg` | owner screenshot, 2026-10-19 | 菜单设定 for theme 舌上清流 (4 stars): 4级客栈要求 至少需要3种不同的类型的菜品 / 至少需要6道菜品和3种饮品; 经营主题要求 至少有1道[汤羹]类菜品; 主题热门 汤羹 饮品; 主题加分项 出售10道[汤羹]类菜品; all-dishes tab, 0/8 dishes and 0/8 drinks chosen, stock ∞; no EndHud panel on screen |
+| `menu-soup-dessert-theme.jpg` | owner's live session 2026-10-21 (test_yuanyuan4), 0:55 | 菜单设定 for theme 暇时茶点: 4级客栈要求 至少需要3种不同的类型的菜品 / 至少需要6道菜品和3种饮品; 经营主题要求 至少有2道[汤羹]类菜品和2道[甜品]类菜品 (wrapping: its last 品 on a line of its own); 主题热门 汤羹 甜品 茶香 果香; 0/8 dishes and 0/8 drinks; the top of the all-dishes list: 千果珍珠圆, 白瓜肉丸汤, 茄果鳞肉汤, 金丝小贝, 莓果甜汤, 酸辣汤, 雪绵豆沙, 酸莓布丁 (soups and desserts only). EndHud's old menu panel at the bottom left and its "推荐" marks on the cards (the bug of 2026-10-21: two dish types only) |
+| `menu-soup-dessert-theme-scrolled.jpg` | the same session, 1:02 | the same screen scrolled a little: 茄果鳞肉汤, 金丝小贝, 莓果甜汤, 酸辣汤, 雪绵豆沙, 酸莓布丁, 豆沙汤圆, 咸酪脆饼, 鲜奶炖蛋 / 糯米凉糕 (cut off) |
+| `session-panel-closed-mark-table1.jpg` | the same session, 4:16 | timer 03:12, the 派单 panel CLOSED; EndHud's card mark "排这个（桌1）" left over the dining room (the bug of 2026-10-21) and its two circles for 桌4. T1 酸莓布丁 + drink; T2 用餐中 (yellow); T3, T5, T6 orders; T4 gourmand 点餐中 |
+| `session-gourmand-soup-and-drink.jpg` | the same session, 4:20 | timer 03:08. T4 gourmand order, 2 category icons; its bubble, large: "清爽无油的汤羹，有吗？/ 来杯喝的，谨记，我滴酒 / 不沾。" (gourmand 3: 汤羹&非<菜籽油>, 非[酒香]) |
+| `session-gourmand-soup-and-drink-far.jpg` | the same session, 4:56 | timer 02:32, the same bubble small and far; EndHud's banners at the left and circles for 桌4 (酸莓布丁, 白瓜肉丸汤: the bug of 2026-10-21) |
+| `session-gourmand-soup-and-drink-near.jpg` | the same session, 4:59 | timer 02:29, the same bubble, middle size |
+| `session-panel-closed-mark-table2.jpg` | the same session, 5:02 | timer 02:26, the 派单 panel CLOSED; EndHud's card mark "排这个（桌2）" left over table 6; the same bubble, both requests ticked |
 
 ## The chef picker's grid (`chef-picker.jpg`)
 
