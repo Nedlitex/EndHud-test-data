@@ -35,6 +35,8 @@ as served too.
 | `setup-theme.jpg` | test_yuanyuan2 42 s | the theme list (//主题设定), 养身心 selected (no stars): objective 开启2次满堂彩, requirement 至少有2道带有[素食]或[滋补]特性的菜品, hot traits 素食 滋补 |
 | `setup-chefs-placed.jpg` | test_yuanyuan2 60 s | kitchen 1 大厨佩丽卡 + 大厨艾维文娜, kitchen 2 大厨陈千语, kitchen 3 empty |
 | `chef-picker.jpg` | test_yuanyuan2 75 s | 厨房一's chef picker, 2/2 chosen: 大厨佩丽卡 (菜肴, 珍馐; 甜) and 大厨艾维文娜 (菜肴, 甜品; 甜); totals 菜肴 +20 %, 甜品 +10 %, 珍馐 +5 %, 甜 +10 %; the grid of other operators' cards, no names (who they are: below) |
+| `setup-soup-entree-empty.jpg` | test_yuanyuan6 55.5 s | 营业设定, theme 一汤一饭 (no stars): text "…客人更倾向主食和汤羹类菜品。", objective 出售20道[主食]类或[汤羹]类的菜品, requirement 至少有2道[主食]类和2道[汤羹]类菜品, hot types 主食 汤羹; Si's 品质把控 5 %; the three kitchens empty (安排干员+), two places each; no EndHud panel yet |
+| `chef-picker-kitchen1-empty.jpg` | test_yuanyuan6 61 s | 厨房一's chef picker, 0/2 chosen, hot types 汤羹 主食; EndHud's "厨房一 · 推荐" panel (安塔尔 狼卫; 可换 黎风 洛茜 卡契尔) over the empty bonus list |
 | `menu-dishes.jpg` | test_yuanyuan2 66 s | 菜单设定, all dishes tab, 2/8 dishes chosen (白瓜肉丸汤, 莓果甜汤), 0/8 drinks; requirements (Rating 4: ≥3 types, ≥6 dishes and 3 drinks); stock 可烹饪∞ |
 | `menu-drinks.jpg` | test_yuanyuan2 96 s | the drinks tab, 8/8 dishes and 0/8 drinks chosen; the eight drinks (瓶装霞莓饮, 潮前龙井, 陈酿葡萄露, 瓶装优质兽奶, 游人酒, 梨花香茶, 瓶装脆蔗汁, 玉米汁); stock 库存∞ |
 | `dispatch-panel-queue.jpg` | test_yuanyuan2 108 s | 派单 for 厨房一 (大厨佩丽卡, 大厨艾维文娜), 珍馐 18 %, timer 04:52 at the top; one dish queued, 白瓜肉丸汤 cooking with 40 s left, two empty slots. T1 点餐中, the rest empty |
