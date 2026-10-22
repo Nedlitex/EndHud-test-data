@@ -51,6 +51,13 @@ as served too.
 | `session-gourmand-soup-and-drink-far.jpg` | the same session, 4:56 | timer 02:32, the same bubble small and far; EndHud's banners at the left and circles for 桌4 (酸莓布丁, 白瓜肉丸汤: the bug of 2026-10-21) |
 | `session-gourmand-soup-and-drink-near.jpg` | the same session, 4:59 | timer 02:29, the same bubble, middle size |
 | `session-panel-closed-mark-table2.jpg` | the same session, 5:02 | timer 02:26, the 派单 panel CLOSED; EndHud's card mark "排这个（桌2）" left over table 6; the same bubble, both requests ticked |
+| `session-tray-picking-up.jpg` | owner's live session 2026-10-21 (test_yuanyuan5, theme 群鳞会), 200 s | timer 03:07; the tray of held dishes (bottom middle, five slots): 白瓜肉丸汤 (slot selected, white), 福寿全, three empty slots, a yellow arrow over slot 3 (picking up); fire 8/100 |
+| `session-panel-just-closed.jpg` | the same session, 252.6 s | timer 02:14 back under the 结束经营 button, the HUD fading in after the 派单 panel closed; EndHud's card mark "预做这个" left over the dining room (the bug of 2026-10-21); tray 至臻鳞肉卷, "勺里游" (珍馐 badge); fire 29/100 |
+| `session-tray-two-dishes.jpg` | the same session, 258 s | timer 02:12; tray 至臻鳞肉卷 (selected), "勺里游" (珍馐 badge); EndHud's call "厨房三：至臻鳞肉卷 / 桌4 点的" though one is in hand (the bug of 2026-10-21) |
+| `session-tray-one-choice-dish.jpg` | the same session, 300 s | timer 01:27; tray "勺里游" (珍馐 badge, selected), the game's prompt 放回出餐台 (put it back on the counter); fire 66/100 |
+| `session-tray-three-dishes.jpg` | the same session, 328 s | timer 00:57; tray "勺里游" (珍馐), 白瓜肉丸汤 (珍馐, selected), 鳞肉水饺 |
+| `session-full-blaze-started.jpg` | the same session, 333 s | Full Blaze just started: the meter's button a red circle counting down "01:00", the game's line "赏钱翻倍，速度提升!" left of it, the streak (19) under its red band; EndHud's "开启满堂彩（R）" still up (the bug of 2026-10-21); tray "勺里游" (珍馐), 鳞肉水饺 |
+| `session-full-blaze-running.jpg` | the same session, 380 s | timer 00:07, Full Blaze running: the red circle "00:13", the game's line "灶火正旺，满堂生彩!", streak 26; the 即将打烊 banner; tray empty; EndHud's "开启满堂彩（R）" still up |
 
 ## The chef picker's grid (`chef-picker.jpg`)
 
