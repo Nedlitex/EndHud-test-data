@@ -39,8 +39,8 @@ scene; the level may read as unknown, but never as anything else.
 | `level-I-typhoeus-98s.jpg` | `typho_battle.mp4`, 98 | Electrification with no badge (I) at 0 over a dim scene |
 | `level-I-typhoeus-143s.jpg` | `typho_battle.mp4`, 143 | Electrification with no badge (I) at 0 over a dim, reddish scene |
 
-Seen in the four recordings: Corrosion III (Si, 74-110 s), Electrification II, III and IV (Zhuang
-35-59, 91 and 106-143 s; Laevatain 40-111 s). No level I badge was seen. The Corrosion and
+Seen in the four recordings: Corrosion III (Si, 74-110 s); Electrification II (Zhuang 35-59 and
+106-143 s), III (Zhuang 91 s) and IV (Laevatain 40-111 s). No level I badge was seen. The Corrosion and
 Electrification icons also show with no badge at all (Laevatain 32-35 and 107-111 s, Zhuang, and
 through most of the Typhoeus fight): that is level I. It reads as I only where the badge is clearly
 absent (the corner shows the icon square's own background, hardly any dark); over a dark scene, where a
