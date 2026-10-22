@@ -78,3 +78,11 @@ element; all twelve agree.
 | 1 | 黎风 (主食 汤羹; 咸) | 莱万汀 (菜肴 珍馐; 辣) | 伊冯 (甜品 甜品; 鲜) | 大潘 (主食 菜肴; 咸) |
 | 2 | 秋栗 (主食 主食; 辣) | 卡契尔 (主食 菜肴; 咸) | 埃特拉 (菜肴 珍馐; 鲜) | 萤石 (汤羹 珍馐; 酸) |
 | 3 | 安塔尔 (珍馐 珍馐; 甜) | 阿列什 (主食 汤羹; 鲜) | 艾尔黛拉 (菜肴 汤羹; 酸) | 别礼 (主食 珍馐; 鲜) |
+| `feast-bubble-short.jpg` | owner's recording 2026-10-21 (test_yuanyuan8, the feast mode: every guest a gourmand of the feast pool), 192.5 s | table 1's gourmand (feast pool 10): its bubble's two requests on a line each, the dish (5 letters) and the drink (3 letters), the drink's icon a green face (served); card 1's second pip green |
+| `feast-bubble-wrapped.jpg` | the same session, 204 s | table 2's gourmand (feast 7): each request wraps its last letter onto a line of its own; nothing served yet |
+| `feast-bubble-behind-stats.jpg` | the same session, 186 s | table 1's gourmand (feast 10): the session's stats box (income, guests, dishes sold) drawn over the bubble's second line (the drink) |
+| `feast-two-bubbles.jpg` | the same session, 359.5 s | two bubbles: table 4's gourmand (feast 11, the vegetable-mushroom dish and an alcohol-free drink) near, table 6's (feast 14) far and smaller; a third, small bubble with the hand-raised icon (table 4's next guest waiting) |
+| `feast-bubble-faces.jpg` | the same session, 365 s | table 6's gourmand (feast 14): both requests' icons red faces (failed); card 6's pips red |
+| `feast-two-soups.jpg` | the same session, 406 s | table 5's gourmand (feast 4): two soup requests, a dish icon before each |
+| `feast-two-bubbles-one-resolved.jpg` | the same session, 401 s | table 2's gourmand (feast 10, drink a green face) and table 4's far (feast 11, dish a red face) |
+| `feast-cards-pips.jpg` | the same session, 231 s | the cards: tables 1 and 2 gourmand orders with the second pip green (drink served), table 4 gourmand ordering, table 5 gourmand order with the first pip red (dish failed), tables 3 and 6 empty; table 5's bubble behind the stats box |
