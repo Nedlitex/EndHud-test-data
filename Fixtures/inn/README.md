@@ -60,6 +60,8 @@ as served too.
 | `session-tray-three-dishes.jpg` | the same session, 328 s | timer 00:57; tray "勺里游" (珍馐), 白瓜肉丸汤 (珍馐, selected), 鳞肉水饺 |
 | `session-full-blaze-started.jpg` | the same session, 333 s | Full Blaze just started: the meter's button a red circle counting down "01:00", the game's line "赏钱翻倍，速度提升!" left of it, the streak (19) under its red band; EndHud's "开启满堂彩（R）" still up (the bug of 2026-10-21); tray "勺里游" (珍馐), 鳞肉水饺 |
 | `session-full-blaze-running.jpg` | the same session, 380 s | timer 00:07, Full Blaze running: the red circle "00:13", the game's line "灶火正旺，满堂生彩!", streak 26; the 即将打烊 banner; tray empty; EndHud's "开启满堂彩（R）" still up |
+| `setup-gourmand-theme.jpg` | owner's live session 2026-10-21 (test_yuanyuan8), 0:20 | 营业设定 for theme 食有老饕 (not in inn-data.json): 菜单要求 "至少需要8道菜品和6种饮品 / 且[主食]类、[菜肴]类、[甜品]类、[汤羹]类菜品，每 / 种至少有1道" (a type icon before each bracket); under it the 流行趋势 bar (chip 赏钱, a refresh countdown 13小时39分钟 at its right), 热门类型 汤羹, 热门特性 素食; kitchens empty |
+| `menu-gourmand-theme.jpg` | the same session, 2:00 | 菜单设定: 专属菜单要求 "至少需要8道菜品和6种饮品 / 且[主食]类、[菜肴]类、[甜品]类、 / [汤羹]类菜品，每种至少有1道"; 流行趋势 汤羹, 素食 under it; 8/8 dishes and 6/8 drinks; EndHud's menu panel at the bottom left saying it can't read the rule (the bug of 2026-10-21) |
 
 ## The chef picker's grid (`chef-picker.jpg`)
 
