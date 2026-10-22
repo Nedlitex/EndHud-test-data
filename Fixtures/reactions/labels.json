@@ -26,5 +26,11 @@
  { "file": "other-typhoeus-30s.jpg", "position": 1, "status": "Electrification", "level": 1 },
  { "file": "other-typhoeus-30s.jpg", "position": 4, "status": null, "level": null },
  { "file": "other-zhuang-46s.jpg", "position": 0, "status": "Electrification", "level": 1 },
- { "file": "other-zhuang-46s.jpg", "position": 1, "status": null, "level": null }
+ { "file": "other-zhuang-46s.jpg", "position": 1, "status": null, "level": null },
+ { "file": "level-I-typhoeus-24s.jpg", "position": 0, "status": "Electrification", "level": 1 },
+ { "file": "level-I-typhoeus-46s.jpg", "position": 0, "status": "Electrification", "level": 1 },
+ { "file": "level-I-typhoeus-46s.jpg", "position": 1, "status": null, "level": null },
+ { "file": "level-I-typhoeus-70s.jpg", "position": 0, "status": "Electrification", "level": 1, "hard": true },
+ { "file": "level-I-typhoeus-98s.jpg", "position": 0, "status": "Electrification", "level": 1 },
+ { "file": "level-I-typhoeus-143s.jpg", "position": 0, "status": "Electrification", "level": 1 }
 ]
