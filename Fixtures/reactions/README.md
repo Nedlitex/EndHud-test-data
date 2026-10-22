@@ -21,6 +21,8 @@ when the wiki has no such icon) and the level (`null`: no Roman numeral at that 
 | `electrification-III-91s.jpg` | `zhuang_battle3.mp4`, 91 | Electrification III at 1; a digit 2 badge at 4 |
 | `electrification-IV-45s.jpg` | `fullbattletest.mp4` (Laevatain), 45 | Electrification IV at 0; Combustion (no badge) at 1; a digit 2 badge at 4 |
 | `electrification-IV-71s.jpg` | `fullbattletest.mp4` (Laevatain), 71 | Electrification IV at 4; a digit 2 badge at 6 |
+| `electrification-IV-107s.jpg` | `fullbattletest.mp4` (Laevatain), 107 | Electrification IV at 0 over a black scene |
+| `electrification-IV-107_47s.jpg` | `fullbattletest.mp4` (Laevatain), 107.467 | Electrification IV at 0, dim, over a black scene: the V's arms stay apart low down (`hard`: may read as unknown, never as III) |
 | `other-laevatain-27s.jpg` | `fullbattletest.mp4`, 27 | a digit 1 badge at 3 |
 | `other-laevatain-33s.jpg` | `fullbattletest.mp4`, 33 | the Corrosion icon with no badge at 1; a digit 2 badge at 4 |
 | `other-si-22s.jpg` | `battle_test2_si.mp4`, 22 | a digit 2 badge at 5 |

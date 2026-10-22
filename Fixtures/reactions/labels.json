@@ -10,6 +10,8 @@
  { "file": "electrification-II-57s.jpg", "position": 3, "status": null, "level": null },
  { "file": "electrification-III-91s.jpg", "position": 1, "status": "Electrification", "level": 3 },
  { "file": "electrification-III-91s.jpg", "position": 4, "status": null, "level": null },
+ { "file": "electrification-IV-107s.jpg", "position": 0, "status": "Electrification", "level": 4 },
+ { "file": "electrification-IV-107_47s.jpg", "position": 0, "status": "Electrification", "level": 4, "hard": true },
  { "file": "electrification-IV-45s.jpg", "position": 0, "status": "Electrification", "level": 4 },
  { "file": "electrification-IV-45s.jpg", "position": 1, "status": "Combustion", "level": null },
  { "file": "electrification-IV-45s.jpg", "position": 4, "status": null, "level": null },
