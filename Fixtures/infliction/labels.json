@@ -1,42 +1,97 @@
 [
  {
   "file": "ring-42_5s.jpg",
-  "infliction": "Nature Infliction"
+  "infliction": "Nature Infliction",
+  "stacks": 1
  },
  {
   "file": "ring-68_5s.jpg",
-  "infliction": "Heat Infliction"
+  "infliction": "Heat Infliction",
+  "stacks": 1
  },
  {
   "file": "ring-69_25s.jpg",
-  "infliction": "Heat Infliction"
+  "infliction": "Heat Infliction",
+  "stacks": 2
  },
  {
   "file": "ring-80_5s.jpg",
-  "infliction": "Heat Infliction"
+  "infliction": "Heat Infliction",
+  "stacks": 1
  },
  {
   "file": "ring-99_9s.jpg",
-  "infliction": "Heat Infliction"
+  "infliction": "Heat Infliction",
+  "stacks": 1
  },
  {
   "file": "ring-108s.jpg",
-  "infliction": "Heat Infliction"
+  "infliction": "Heat Infliction",
+  "stacks": 1
  },
  {
   "file": "ring-50_5s.jpg",
-  "infliction": null
+  "infliction": null,
+  "stacks": null
  },
  {
   "file": "ring-86_5s.jpg",
-  "infliction": null
+  "infliction": null,
+  "stacks": null
  },
  {
   "file": "ring-93_75s.jpg",
-  "infliction": null
+  "infliction": null,
+  "stacks": null
  },
  {
   "file": "ring-96_75s.jpg",
-  "infliction": null
+  "infliction": null,
+  "stacks": null
+ },
+ {
+  "file": "si-cryo-39_5s.jpg",
+  "infliction": "Cryo Infliction",
+  "stacks": 1
+ },
+ {
+  "file": "si-cryo-41_5s.jpg",
+  "infliction": "Cryo Infliction",
+  "stacks": 2
+ },
+ {
+  "file": "si-cryo-50_5s.jpg",
+  "infliction": "Cryo Infliction",
+  "stacks": 3
+ },
+ {
+  "file": "si-cryo-51_5s.jpg",
+  "infliction": "Cryo Infliction",
+  "stacks": 3
+ },
+ {
+  "file": "si-cryo-57_5s.jpg",
+  "infliction": "Cryo Infliction",
+  "stacks": 4
+ },
+ {
+  "file": "si-cryo-58_25s.jpg",
+  "infliction": "Cryo Infliction",
+  "stacks": 4
+ },
+ {
+  "file": "si-cryo-65_5s.jpg",
+  "infliction": "Cryo Infliction",
+  "stacks": 1
+ },
+ {
+  "file": "si-cryo-67_5s.jpg",
+  "infliction": "Cryo Infliction",
+  "stacks": 2
+ },
+ {
+  "file": "si-cryo-71_5s.jpg",
+  "infliction": "Cryo Infliction",
+  "stacks": 3
  }
 ]
