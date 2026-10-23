@@ -26,5 +26,6 @@
  { "file": "none-56s.jpg", "vulnerable": false, "stacks": null, "hard": false },
  { "file": "none-92s.jpg", "vulnerable": false, "stacks": null, "hard": false },
  { "file": "none-117_5s.jpg", "vulnerable": false, "stacks": null, "hard": false },
- { "file": "none-white-35s.jpg", "vulnerable": false, "stacks": null, "hard": false }
+ { "file": "none-white-35s.jpg", "vulnerable": false, "stacks": null, "hard": false },
+ { "file": "none-typhoeus-edge-27s.jpg", "vulnerable": false, "stacks": null, "hard": false }
 ]

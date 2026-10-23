@@ -58,6 +58,7 @@ unknown, never as another number; presence must still be read).
 | `gone-54_5s.jpg` | no ring, between two frames with 3 stacks |
 | `none-56s.jpg`, `none-92s.jpg`, `none-117_5s.jpg` | no ring |
 | `none-white-35s.jpg` | no ring, a white wall behind its place |
+| `none-typhoeus-edge-27s.jpg` | from `typho_battle.mp4` at 27 s (an arts team, no Vulnerable): no ring, grey sky over a dark roof edge, the closest any frame of four arts-team recordings came to a white shield with a dark line through it |
 
 No elemental infliction shows in this recording, so whether the ring can hold an infliction and
 Vulnerable at once, or which one wins, is not known.
