@@ -1,0 +1,13 @@
+[
+  { "file": "zh-34s.jpg", "controlledSlot": 2, "bar": null, "owner": null },
+  { "file": "zh-38_5s.jpg", "controlledSlot": 2, "bar": "gold", "owner": "Zhuang_Fangyi" },
+  { "file": "zh-46_5s.jpg", "controlledSlot": 2, "bar": "gold", "owner": "Zhuang_Fangyi" },
+  { "file": "zh-52s.jpg", "controlledSlot": 2, "bar": "gold", "owner": "Zhuang_Fangyi" },
+  { "file": "zh-63s.jpg", "controlledSlot": 2, "bar": "gold", "owner": "Zhuang_Fangyi" },
+  { "file": "zl-36_5s.jpg", "controlledSlot": 1, "bar": "gold", "owner": "Zhuang_Fangyi" },
+  { "file": "zl-43_5s.jpg", "controlledSlot": 2, "bar": "red", "owner": "Laevatain" },
+  { "file": "zl-44_5s.jpg", "controlledSlot": 3, "bar": "teal", "owner": null },
+  { "file": "zl-46s.jpg", "controlledSlot": 1, "bar": "gold", "owner": "Zhuang_Fangyi" },
+  { "file": "zl-53_5s.jpg", "controlledSlot": 2, "bar": "red", "owner": "Laevatain" },
+  { "file": "zl-56s.jpg", "controlledSlot": 3, "bar": "gold", "owner": "Zhuang_Fangyi" }
+]
