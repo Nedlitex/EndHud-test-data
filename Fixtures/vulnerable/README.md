@@ -1,11 +1,11 @@
-# 破防 (Vulnerable) and its stacks
+# Vulnerable and its stacks
 
-Frames chosen for 破防 on the boss (`VulnerableRing`), from the owner's physical-team recording
+Frames chosen for Vulnerable on the boss (`VulnerableRing`), from the owner's physical-team recording
 `test_mifu.mp4` (3838x2158, 138 s; nothing taken from its last 5 s). Each is cut at the second in
 its name (an exact frame: 30 fps, the second × 30). Everything below y 320 is blacked out (that
 includes the UID): only the boss's bars, the ring and the status row are kept.
 
-## What 破防 looks like
+## What Vulnerable looks like
 
 It is not in the status row. The game draws it in the infliction ring's place at the right end of
 the boss's HP bar: a white shield crossed by a dark diagonal slash (lower left to upper right) on a
@@ -60,4 +60,4 @@ unknown, never as another number; presence must still be read).
 | `none-white-35s.jpg` | no ring, a white wall behind its place |
 
 No elemental infliction shows in this recording, so whether the ring can hold an infliction and
-破防 at once, or which one wins, is not known.
+Vulnerable at once, or which one wins, is not known.
