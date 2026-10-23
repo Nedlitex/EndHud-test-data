@@ -17,7 +17,7 @@ game draws it.
 |---|---|---|---|
 | `si-*` | Si, –, –, – | 2 | Si's damage stacks: 0 is the hollow green flower, then a green cross with a white number (1–27 here). `28s` and `66s`: in combat, no badge drawn at all. |
 | `laevatain-*` | –, Laevatain, Si, – | 4, then 2 from `69_5s` | Laevatain's Melting Flame: four petals, 0–3 white with I–III, 4 all pink with IV. Si's stacks in slot 3 (none drawn at `20s`, `42s`, `45_5s`). |
-| `typhoeus-*` | Typhoeus, –, –, – | 2 | His Hunting Arrows (four slanted bars, one cyan per arrow) and Signs (eight dots, one white per Sign, from the bottom row up, left first). `10s` and `23_5s`: the flash when the arrows fill. |
+| `typhoeus-*` | Typhoeus, –, –, – | 2 | His Hunting Arrows (four slanted bars, one cyan per arrow) and Signs (eight dots, one white per Sign, from the bottom row up, left first). `10s` and `23_5s`: the flash when the arrows fill, over the whole icon (unreadable). |
 | `zhuang-*` | Zhuang Fangyi, –, –, – | 2 | Her Sunderblades: the nine-cell diamond, one cyan per sword, the count printed beside it. `49_5s`: an effect line over it. |
 
 `laevatain-18s`, `typhoeus-73s`, `zhuang-12s`, `zhuang-70s`: out of combat (before the fight, or

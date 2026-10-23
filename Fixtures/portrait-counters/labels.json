@@ -22,7 +22,7 @@
   { "file": "laevatain-73s.jpg", "squad": ["", "Laevatain", "Si", ""], "active": 2, "inCombat": true, "counters": [ { "slot": 3, "counter": "damage-stacks", "value": 16 } ] },
   { "file": "laevatain-77_5s.jpg", "squad": ["", "Laevatain", "Si", ""], "active": 2, "inCombat": true, "counters": [ { "slot": 3, "counter": "damage-stacks", "value": 22 } ] },
 
-  { "file": "typhoeus-10s.jpg", "squad": ["Typhoeus", "", "", ""], "active": 2, "inCombat": true, "counters": [ { "slot": 1, "counter": "hunting-arrow", "value": 4 }, { "slot": 1, "counter": "sign", "value": 4, "unreadable": true } ] },
+  { "file": "typhoeus-10s.jpg", "squad": ["Typhoeus", "", "", ""], "active": 2, "inCombat": true, "counters": [ { "slot": 1, "counter": "hunting-arrow", "value": 4, "unreadable": true }, { "slot": 1, "counter": "sign", "value": 4, "unreadable": true } ] },
   { "file": "typhoeus-11s.jpg", "squad": ["Typhoeus", "", "", ""], "active": 2, "inCombat": true, "counters": [ { "slot": 1, "counter": "hunting-arrow", "value": 4 }, { "slot": 1, "counter": "sign", "value": 4 } ] },
   { "file": "typhoeus-15_5s.jpg", "squad": ["Typhoeus", "", "", ""], "active": 2, "inCombat": true, "counters": [ { "slot": 1, "counter": "hunting-arrow", "value": 4 }, { "slot": 1, "counter": "sign", "value": 5 } ] },
   { "file": "typhoeus-17_5s.jpg", "squad": ["Typhoeus", "", "", ""], "active": 2, "inCombat": true, "counters": [ { "slot": 1, "counter": "hunting-arrow", "value": 4 }, { "slot": 1, "counter": "sign", "value": 6 } ] },
