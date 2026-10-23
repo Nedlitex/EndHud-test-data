@@ -31,8 +31,8 @@ fight: gone at 54.5, 55.5–59.0, 64.0–65.5, 66.5–68.5, 76.5–78.0, 79.0–
 126.5 s. Some of those gaps are the whole top HUD hidden or dark (an ultimate, a dark scene); in
 others the HP bar's ends are still drawn and the ring is not. The owner says Vulnerable is consumed
 by skills; which gap was a consume and which the HUD hidden can't be told from the picture, so the
-gaps aren't labelled with a cause. The owner also says the game shows both when the boss has
-Vulnerable and an elemental infliction at once; this recording never has both.
+gaps aren't labelled with a cause. This recording never has Vulnerable and an elemental infliction
+at once; when the boss has both the game shows both, side by side (see below).
 
 At 81.5 s the HUD fades back in: the arcs and shield are grey, not white (`dim-4-81_5s.jpg`).
 
@@ -62,5 +62,7 @@ unknown, never as another number; presence must still be read).
 | `none-white-35s.jpg` | no ring, a white wall behind its place |
 | `none-typhoeus-edge-27s.jpg` | from `typho_battle.mp4` at 27 s (an arts team, no Vulnerable): no ring, grey sky over a dark roof edge, the closest any frame of four arts-team recordings came to a white shield with a dark line through it |
 
-No elemental infliction shows in this recording, so whether the ring can hold an infliction and
-Vulnerable at once, or which one wins, is not known.
+No elemental infliction shows in this recording. With both on the boss the game draws both, side by
+side in the order they were applied: the first in this ring's place, the second the same size 94 px
+(4K) to its right, each with its own stack arcs. Measured on `test_rossi.mp4`:
+`../vulnerable-and-infliction/`.
