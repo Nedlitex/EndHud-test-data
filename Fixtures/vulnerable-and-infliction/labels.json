@@ -1,0 +1,23 @@
+[
+ { "file": "heat-2-vulnerable-1-21s.jpg", "first": { "status": "Heat Infliction", "stacks": 2, "hard": false }, "second": { "status": "Vulnerable", "stacks": 1, "hard": false } },
+ { "file": "heat-2-vulnerable-1-22_8s.jpg", "first": { "status": "Heat Infliction", "stacks": 2, "hard": false }, "second": { "status": "Vulnerable", "stacks": 1, "hard": false } },
+ { "file": "heat-2-vulnerable-1-23_5s.jpg", "first": { "status": "Heat Infliction", "stacks": 2, "hard": false }, "second": { "status": "Vulnerable", "stacks": 1, "hard": false } },
+ { "file": "heat-2-vulnerable-1-24_5s.jpg", "first": { "status": "Heat Infliction", "stacks": 2, "hard": false }, "second": { "status": "Vulnerable", "stacks": 1, "hard": false } },
+ { "file": "heat-2-vulnerable-3-25_3s.jpg", "first": { "status": "Heat Infliction", "stacks": 2, "hard": true }, "second": { "status": "Vulnerable", "stacks": 3, "hard": true } },
+ { "file": "vulnerable-3-heat-1-33_5s.jpg", "first": { "status": "Vulnerable", "stacks": 3, "hard": false }, "second": { "status": "Heat Infliction", "stacks": 1, "hard": false } },
+ { "file": "vulnerable-3-heat-1-35s.jpg", "first": { "status": "Vulnerable", "stacks": 3, "hard": false }, "second": { "status": "Heat Infliction", "stacks": 1, "hard": false } },
+ { "file": "vulnerable-3-cryo-1-37_5s.jpg", "first": { "status": "Vulnerable", "stacks": 3, "hard": false }, "second": { "status": "Cryo Infliction", "stacks": 1, "hard": false } },
+ { "file": "heat-1-16s.jpg", "first": { "status": "Heat Infliction", "stacks": 1, "hard": false }, "second": null },
+ { "file": "heat-2-18_5s.jpg", "first": { "status": "Heat Infliction", "stacks": 2, "hard": false }, "second": null },
+ { "file": "vulnerable-3-28s.jpg", "first": { "status": "Vulnerable", "stacks": 3, "hard": false }, "second": null },
+ { "file": "vulnerable-3-30s.jpg", "first": { "status": "Vulnerable", "stacks": 3, "hard": false }, "second": null },
+ { "file": "arriving-vulnerable-20s.jpg", "first": { "status": "Heat Infliction", "stacks": 2, "hard": false }, "second": { "status": "Vulnerable", "stacks": 1, "hard": true } },
+ { "file": "flash-heat-2-vulnerable-25s.jpg", "first": { "status": "Heat Infliction", "stacks": 2, "hard": true }, "second": { "status": "Vulnerable", "stacks": null, "hard": true } },
+ { "file": "fading-heat-vulnerable-3-25_5s.jpg", "first": { "status": "Heat Infliction", "stacks": 2, "hard": true }, "second": { "status": "Vulnerable", "stacks": 3, "hard": true } },
+ { "file": "moved-vulnerable-3-25_8s.jpg", "first": { "status": "Vulnerable", "stacks": 3, "hard": false }, "second": null },
+ { "file": "arriving-heat-32_8s.jpg", "first": { "status": "Vulnerable", "stacks": 3, "hard": false }, "second": { "status": "Heat Infliction", "stacks": 1, "hard": true } },
+ { "file": "gone-heat-vulnerable-3-36_5s.jpg", "first": { "status": "Vulnerable", "stacks": 3, "hard": false }, "second": null },
+ { "file": "arriving-cryo-37s.jpg", "first": { "status": "Vulnerable", "stacks": 3, "hard": false }, "second": { "status": "Cryo Infliction", "stacks": 1, "hard": true } },
+ { "file": "none-10s.jpg", "first": null, "second": null },
+ { "file": "none-39s.jpg", "first": null, "second": null }
+]
