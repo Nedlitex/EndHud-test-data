@@ -15,8 +15,8 @@ game draws it.
 
 | Files | Squad (slot 1–4) | Controlled | What the portraits show |
 |---|---|---|---|
-| `si-*` | Si, –, –, – | 2 | Si's damage stacks: 0 is the hollow green flower, then a green cross with a white number (1–27 here). `28s` and `66s`: in combat, no badge drawn at all. |
-| `laevatain-*` | –, Laevatain, Si, – | 4, then 2 from `69_5s` | Laevatain's Melting Flame: four petals, 0–3 white with I–III, 4 all pink with IV. Si's stacks in slot 3 (none drawn at `20s`, `42s`, `45_5s`). |
+| `si-*` | Si, –, –, – | 2 | Si's damage stacks: 0 is the hollow green flower, then a green cross with a white number (1–27 here). No badge drawn at all, in combat, is 0 too (owner, 2026-10-23): `28s`, `29s` (red scenery behind the corner), `70s`, `75s`. Unknown, the portrait tinted, dimmed or the fight ending: `65_5s` and `66s` (tinted red), `69s` (dimmed). |
+| `laevatain-*` | –, Laevatain, Si, – | 4, then 2 from `69_5s` | Laevatain's Melting Flame: four petals, 0–3 white with I–III, 4 all pink with IV. Si's stacks in slot 3; no badge, so 0: `20s`, `38_5s`, `42s`, `45_5s`, `55_5s`. Unknown: `55s` (a white flash over the bottom of Si's), `57s` (the portraits faded, see-through). |
 | `typhoeus-*` | Typhoeus, –, –, – | 2 | His Hunting Arrows (four slanted bars, one cyan per arrow) and Signs (eight dots, one white per Sign, from the bottom row up, left first). `10s` and `23_5s`: the flash when the arrows fill, over the whole icon (unreadable). |
 | `zhuang-*` | Zhuang Fangyi, –, –, – | 2 | Her Sunderblades: the nine-cell diamond, one cyan per sword, the count printed beside it. `49_5s`: an effect line over it. |
 
@@ -26,7 +26,9 @@ dimmed portrait looks like grey bars and dots.
 
 `labels.json`, by eye on enlarged crops: per file the squad (`""` for an operator without a
 counter), the controlled slot, whether it's in combat, and per counter on a portrait its value.
-`value: null`: nothing to read (no badge drawn). `unreadable: true`: the flash covers it; the
-readers may say the value or nothing, never another number.
+`value: null`: must read as unknown (a tinted, dimmed or faded portrait, a flash over it, the fight
+ending). `noBadge: true`: Si's 0 shown by no badge at all on her clear portrait, rather than the
+hollow flower. `unreadable: true`: the flash covers it; the readers may say the value or nothing,
+never another number.
 
 None in the controller layout: none of the recordings uses it.
