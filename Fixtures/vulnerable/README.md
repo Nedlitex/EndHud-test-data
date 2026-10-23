@@ -29,8 +29,10 @@ the count can't be told: those frames are `hard`.
 The ring is not there 0–47.0 s (exploring, then the fight starts), and it comes and goes inside the
 fight: gone at 54.5, 55.5–59.0, 64.0–65.5, 66.5–68.5, 76.5–78.0, 79.0–81.0, 90.0–94.0 and from
 126.5 s. Some of those gaps are the whole top HUD hidden or dark (an ultimate, a dark scene); in
-others the HP bar's ends are still drawn and the ring is not. Why it went each time (consumed by a
-skill, expired, or the HUD hidden) can't be told from the picture and isn't labelled.
+others the HP bar's ends are still drawn and the ring is not. The owner says Vulnerable is consumed
+by skills; which gap was a consume and which the HUD hidden can't be told from the picture, so the
+gaps aren't labelled with a cause. The owner also says the game shows both when the boss has
+Vulnerable and an elemental infliction at once; this recording never has both.
 
 At 81.5 s the HUD fades back in: the arcs and shield are grey, not white (`dim-4-81_5s.jpg`).
 
