@@ -25,19 +25,21 @@ controlled.
 
 ## `zl-`: test_zhuang_laevatine_background1.mp4
 
-A squad of three: Zhuang Fangyi (slot 1), Laevatain (slot 2), and a pink-haired operator in
-slot 3 (not named here). Zhuang's ultimate runs from about 36 s, Laevatain's from about 42 s, and
-the slot-3 operator's (a teal bar) for a moment around 44 s. The player switches between all
-three. What the bar shows depends on who is controlled:
+A squad of three: Zhuang Fangyi (slot 1), Laevatain (slot 2) and Yvonne (slot 3; named by
+the owner, 2026-10-23). All three cast their ultimate, and each lasts with the bar: Zhuang's runs
+from about 36 s, Laevatain's from 38.75 s (a full red bar under her), Yvonne's (a teal bar) from 41.25 s (her ultimate's
+cutscene is 39.25–41 s; her bar reads 1.00 at 41.25 s and 0.57 at 44.25 s, draining about 0.14 a
+second, so about 7 s in all; it isn't on screen again before it would have ended). The player
+switches between all three. What the bar shows depends on who is controlled:
 
 | File | Controlled | The bar |
 |---|---|---|
 | `zl-36_5s.jpg` | slot 1, Zhuang | gold, full: Zhuang's |
 | `zl-43_5s.jpg` | slot 2, Laevatain | red ≈0.83: Laevatain's (Zhuang's still runs) |
-| `zl-44_5s.jpg` | slot 3 | teal ≈0.54: the slot-3 operator's own |
+| `zl-44_5s.jpg` | slot 3, Yvonne | teal ≈0.54: Yvonne's |
 | `zl-46s.jpg` | slot 1, Zhuang | gold ≈0.78: Zhuang's |
 | `zl-53_5s.jpg` | slot 2, Laevatain | red ≈0.15: Laevatain's |
-| `zl-56s.jpg` | slot 3 | gold ≈0.38: Zhuang's, running in the background |
+| `zl-56s.jpg` | slot 3, Yvonne | gold ≈0.38: Zhuang's, running in the background (Yvonne's has ended) |
 
 So: the bar shows the controlled operator's own lasting ultimate when she has one running, and
 otherwise one that runs for an operator in the background, in that operator's colour. It is not
@@ -46,5 +48,4 @@ otherwise one that runs for an operator in the background, in that operator's co
 ## `labels.json`
 
 By eye. `controlledSlot`: the slot with the large portrait. `bar`: the bar's colour, null when
-there is none. `owner`: whose ultimate it is (operator id), null when there is no bar or it is the
-unnamed slot-3 operator's.
+there is none. `owner`: whose ultimate it is (operator id), null when there is no bar.
