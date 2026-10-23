@@ -65,3 +65,15 @@ unknown count, or not at all, never as another status or count).
 | `gone-heat-vulnerable-3-36_5s.jpg` | heat gone, Vulnerable 3 alone |
 | `arriving-cryo-37s.jpg` | Vulnerable 3; cryo 1 arriving second, a circle round it (`hard`) |
 | `none-10s.jpg`, `none-39s.jpg` | no icon (exploring; the HUD gone) |
+
+Three more, from the arts-team recordings (also 3838x2158, cut and blacked out the same way), for what
+must NOT be read in the second place. Their `second` is `null` even where an icon shows there:
+
+| File | Shows |
+|---|---|
+| `si-nature-replacing-cryo-20_5s.jpg` | `battle_test2_si.mp4` at 20.5 s: nature 1 just applied, a circle round it (`hard`), in the first place; the cryo 3 it replaced slid right and fades out (20.1-20.6 s; gone at 20.7 s). The cryo is no longer on the boss |
+| `typhoeus-nature-replacing-nature-30s.jpg` | `typho_battle.mp4` at 30 s: nature 1 applied again, a circle round it (`hard`), the old nature icon beside it on its way out |
+| `typhoeus-nature-2-sky-beside-105_5s.jpg` | `typho_battle.mp4` at 105.5 s: nature 2 alone; in the second place white sky with a dark branch, white on both sides of a dark diagonal like Vulnerable's shield, but no stack arc |
+
+So two inflictions side by side are one infliction replacing another (the new one takes the first
+place), not two on the boss; only Vulnerable beside an infliction is.
