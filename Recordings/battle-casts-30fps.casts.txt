@@ -1,0 +1,4 @@
+# Battle skills cast in battle-casts-30fps.mp4, labelled by eye: seconds from the start of the clip, slot (1-4).
+# Squad by slot: Si, Last_Rite, Tangtang, Arcane. Every skill-point drop in the clip is here; the
+# fill on slot 3's button starts at 16.40 and the skill points read 2.43 -> 1.44 across 16.50-16.75.
+16.40,3

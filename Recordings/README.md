@@ -24,6 +24,7 @@ B-frames and with a keyframe every 1–3 s, so frame-accurate seeking matches th
 | `out-of-combat.mp4` | 13 s | Exploring: no combo bars (dark portraits where they'd be), colourful scenery behind the ultimate circles |
 | `battle-fight1.mp4` | 110 s | First fight of a boss battle, from the end of the menus: low HP (pink frames), ultimate cutscenes, a white-haired operator at 0–5% HP |
 | `battle-fight2.mp4` | 78 s | Second fight, from the loading screen: the squad dimmed with F1–F4 labels, heals, operators falling one by one, a full wipe, the screen after |
+| `battle-casts-30fps.mp4` | 30 s | **30 fps** (the others are 5 fps; a battle skill's cast flash lasts 2–10 frames at 30 fps). Loading screen, then a training fight of Si, Last_Rite, Tangtang and Arcane with all four ultimates charged: scene light behind three buttons (~14.4 s), Tangtang's battle skill (slot 3, ~16.4 s), combos. The casts, labelled by eye, are in `battle-casts-30fps.casts.txt` (`seconds,slot`) |
 
 The two battle files are one recording split at the rewards/loading screen between the
 fights, to keep each file small.
@@ -40,6 +41,7 @@ That folder is git-ignored because the originals show the player UID. Each clip 
 | `out-of-combat.mp4` | `out-of-combat-exploring.mp4` | whole file |
 | `battle-fight1.mp4` | `boss-battle-two-fights-and-wipe.mp4` | `-ss 6 -to 116` |
 | `battle-fight2.mp4` | `boss-battle-two-fights-and-wipe.mp4` | `-ss 128` |
+| `battle-casts-30fps.mp4` | `test_battle_track_bug1.mp4` | `-ss 9.5 -to 39.5` (not its last 5 s), `-r 30 -g 15`, UID box `x=200:y=ih-60:w=300:h=32` (the diagnostics export's area) |
 
 `loading-into-arena-and-first-combat.mp4` (33 s: loading screen, entering the arena, the first
 seconds of combat) isn't used by any test yet.
