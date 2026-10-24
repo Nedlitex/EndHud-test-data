@@ -23,3 +23,18 @@ skill draws a thick white ring on the button's rim that stays for seconds instea
 
 Cut with ffmpeg (`crop=820:370:iw-820:ih-370`, one frame, metadata stripped), each frame chosen by
 measuring the button, from the maintainer's own recordings, none from a recording's last 5 s.
+
+## Samples
+
+`samples/` holds the four buttons measured on every frame (30 fps) of a few seconds of the same
+recordings, one line per frame: the time in seconds, then per button (slot 1 first, separated by
+`|`) the fill, its spread, the scene round the button and the rim's white share, as
+`BattleSkillFlash` defines them (measured with the research script that set its thresholds). Used
+by `CastFlashTrackerTests`.
+
+| File | Recording, seconds | What happens |
+|---|---|---|
+| `bug1-slot3-cast.txt` | test_battle_track_bug1, 25.4–26.8 | Slot 3 casts at 25.93 (no cooldown) |
+| `bug1-scene-light.txt` | test_battle_track_bug1, 23.4–24.9 | Scene light behind slots 2–4 for about 0.6 s, no cast |
+| `fullbattletest-slot2-cast-countdown.txt` | fullbattletest, 23.5–24.9 | Slot 2 casts at 24.03 and goes dark with its countdown |
+| `fullbattletest-slot2-empowered.txt` | fullbattletest, 78.5–80.7 | Slot 2's empowered glow starts at 79.13; the empowered cast at 79.80 ends it |
