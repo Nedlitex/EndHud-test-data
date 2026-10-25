@@ -25,6 +25,7 @@ B-frames and with a keyframe every 1–3 s, so frame-accurate seeking matches th
 | `battle-fight1.mp4` | 110 s | First fight of a boss battle, from the end of the menus: low HP (pink frames), ultimate cutscenes, a white-haired operator at 0–5% HP |
 | `battle-fight2.mp4` | 78 s | Second fight, from the loading screen: the squad dimmed with F1–F4 labels, heals, operators falling one by one, a full wipe, the screen after |
 | `battle-casts-30fps.mp4` | 30 s | **30 fps** (the others are 5 fps; a battle skill's cast flash lasts 2–10 frames at 30 fps). Loading screen, then a training fight of Si, Last_Rite, Tangtang and Arcane with all four ultimates charged: scene light behind three buttons (~14.4 s), Tangtang's battle skill (slot 3, ~16.4 s), combos. The casts, labelled by eye, are in `battle-casts-30fps.casts.txt` (`seconds,slot`) |
+| `battle-controller-30fps.mp4` | 21 s | **30 fps**, the **controller** layout (skill diamond; LB held to cast). A fight with Laevatain in slot 2: casts with LB held on slots 3 (~2.0 s), 1 (~2.9 s, ~9.0 s) and 2 (~19.4 s, its empowered cast: the white rim glows from ~18.0 s until it). The casts, labelled by eye, are in `battle-controller-30fps.casts.txt` |
 
 The two battle files are one recording split at the rewards/loading screen between the
 fights, to keep each file small.
@@ -42,6 +43,7 @@ That folder is git-ignored because the originals show the player UID. Each clip 
 | `battle-fight1.mp4` | `boss-battle-two-fights-and-wipe.mp4` | `-ss 6 -to 116` |
 | `battle-fight2.mp4` | `boss-battle-two-fights-and-wipe.mp4` | `-ss 128` |
 | `battle-casts-30fps.mp4` | `test_battle_track_bug1.mp4` | `-ss 9.5 -to 39.5` (not its last 5 s), `-r 30 -g 15`, UID box `x=200:y=ih-60:w=300:h=32` (the diagnostics export's area) |
+| `battle-controller-30fps.mp4` | `battle_controller_test_fullbattle3.mp4` | `-ss 25 -to 46` (not its last 5 s), `-r 30 -g 15`; the controller HUD reaches higher, so the bottom-left area kept is 600 px high and the bottom-right 940×700; UID box `x=180:y=ih-64:w=320:h=52`, checked by eye on a frame every second |
 
 `loading-into-arena-and-first-combat.mp4` (33 s: loading screen, entering the arena, the first
 seconds of combat) isn't used by any test yet.
