@@ -24,6 +24,28 @@ skill draws a thick white ring on the button's rim that stays for seconds instea
 Cut with ffmpeg (`crop=820:370:iw-820:ih-370`, one frame, metadata stripped), each frame chosen by
 measuring the button, from the maintainer's own recordings, none from a recording's last 5 s.
 
+## Controller
+
+The bottom-right 710×680 px of single frames of battle_controller_test_fullbattle3 (3838×2158, a
+controller fight; Laevatain in slot 2, see `Fixtures/controller`): the skill diamond, plain (an "LB"
+badge in the middle) and with LB held (a larger diamond up and to the left, a face-button badge X, Y,
+B, A beside each button). A battle skill is cast with LB held, so its flash is in the held diamond:
+the pressed button turns light grey, then white. Nothing else is in the crop (the UID is bottom left).
+Cut with `crop=710:680:iw-710:ih-680`, one frame, metadata stripped. Used by `BattleSkillFlashTests`.
+
+| File | Time | What the frame shows |
+|---|---|---|
+| `controller-rest.png` | 30.00 s | The plain diamond, every button at rest |
+| `controller-held-slot3-pressed.png` | 26.90 s | LB held, slot 3 (B) pressed: light grey, before its flash |
+| `controller-held-slot3-fill.png` | 27.00 s | LB held, slot 3 casts: its button white |
+| `controller-held-slot1-fill.png` | 27.90 s | LB held, slot 1 (X) casts: its button white |
+| `controller-held-slot3-fill-slot2-empowered.png` | 79.33 s | LB held, slot 3 casts in front of a light floor, while slot 2's rim glows (empowered) |
+| `controller-held-slot1-empowered.png` | 99.70 s | LB held, slot 1's rim glows (empowered), no cast |
+| `controller-slot1-empowered.png` | 93.50 s | The plain diamond, slot 1's rim glows (empowered) |
+| `controller-slot2-empowered.png` | 123.00 s | The plain diamond, slot 2's rim glows (empowered) |
+| `controller-scene-light.png` | 80.60 s | A white beam of the scene behind the see-through buttons: every rim lit, no glow |
+| `controller-held-slot1-ultimate-press.png` | 146.90 s | LB held, slot 1 held down for its ultimate (the cutscene follows): white like a cast |
+
 ## Samples
 
 `samples/` holds the four buttons measured on every frame (30 fps) of a few seconds of the same
