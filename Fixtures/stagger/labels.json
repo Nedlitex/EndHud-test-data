@@ -1,0 +1,23 @@
+[
+  { "file": "fb-15s.jpg", "state": null },
+  { "file": "fb-22_5s.jpg", "state": "building", "progress": 0.0, "nodes": [0.5], "reached": 0 },
+  { "file": "fb-30s.jpg", "state": "building", "progress": 0.10, "nodes": [0.5], "reached": 0 },
+  { "file": "fb-41s.jpg", "state": "building", "progress": 0.45, "nodes": [0.5], "reached": 0 },
+  { "file": "fb-44_2s.jpg", "state": "building", "progress": 0.54, "swollen": true },
+  { "file": "fb-50s.jpg", "state": "building", "progress": 0.63, "nodes": [0.5], "reached": 1 },
+  { "file": "fb-60s.jpg", "state": "building", "progress": 0.81, "nodes": [0.5], "reached": 1 },
+  { "file": "fb-66s.jpg", "state": "building", "progress": 0.90, "nodes": [0.5], "reached": 1 },
+  { "file": "fb-70s.jpg", "state": "staggered", "countdown": 0.97, "nodes": [0.5], "reached": 1 },
+  { "file": "fb-73s.jpg", "state": "staggered", "countdown": 0.89, "nodes": [0.5], "reached": 1 },
+  { "file": "fb-75s.jpg", "state": null },
+  { "file": "fb-79s.jpg", "state": "staggered", "countdown": 0.56, "nodes": [0.5], "reached": 1 },
+  { "file": "fb-85s.jpg", "state": "staggered", "countdown": 0.09, "nodes": [0.5], "reached": 1 },
+  { "file": "fb-88_5s.jpg", "state": "building", "progress": 0.0, "nodes": [0.5], "reached": 0 },
+  { "file": "f2-5s.jpg", "state": null },
+  { "file": "f2-67_3s.jpg", "state": "building", "progress": 0.52, "swollen": true },
+  { "file": "f2-72s.jpg", "state": "building", "progress": 0.60, "nodes": [0.5], "reached": 1 },
+  { "file": "f2-98_6s.jpg", "state": "building", "progress": 0.98, "nodes": [0.5], "reached": 1 },
+  { "file": "f2-99_6s.jpg", "state": "staggered", "countdown": 0.99, "nodes": [0.5], "reached": 1 },
+  { "file": "f2-105_6s.jpg", "state": "staggered", "countdown": 0.56, "nodes": [0.5], "reached": 1 },
+  { "file": "f2-111s.jpg", "state": "staggered", "countdown": 0.19, "nodes": [0.5], "reached": 1 }
+]
