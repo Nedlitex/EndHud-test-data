@@ -9,7 +9,7 @@ screen. The file name is the clip and the second the frame was taken at (`ffmpeg
 | Prefix | Recording | Size | Squad |
 |---|---|---|---|
 | `mifu-` | test_mifu.mp4 | 3838 × 2158 | four Physical operators: Mi Fu (slot 1), Chen Qianyu, Pogranichnik, Lifeng |
-| `rms-` | test_rossi_mifu_si.mp4 | 3836 × 2158 | Mi Fu in slot 4 (cream), Si in slot 2 (cyan), red ultimates in slots 1 and 3 |
+| `rms-` | test_rossi_mifu_si.mp4 | 3836 × 2158 | Rossi (slot 1, red), Si (slot 2, cyan), Camille (slot 3, red), Mi Fu (slot 4, cream) |
 
 | File | What it shows (by eye, enlarged) |
 |---|---|
@@ -19,6 +19,8 @@ screen. The file name is the clip and the second the frame was taken at (`ffmpeg
 | `mifu-114_3s.png` | slot 1 just turned ready (enlarged ring, key tag "1"); slot 4 ready |
 | `mifu-120s.png` | slot 1 empty again after the cast; slot 4 ready |
 | `rms-94s.png` | slot 4 charging (≈0.93) under a pale cyan figure from another operator's ultimate, which lights the disc and the ring round it. Not ready |
+| `rms-100s.png` | slot 4 nearly full (≈0.96); slot 1 red, ready (key tag "1") |
+| `rms-111_5s.png` | slot 4 empty after its cast; slot 2 cyan ≈0.3 |
 | `rms-107_5s.png` | slot 4 ready (key tag "4"); slot 2 cyan ≈0.3, slot 3 red ≈0.5, slot 1 empty |
 | `rms-140s.png` | slot 4 charging ≈0.18, over a light floor (its empty centre is a lighter grey, ≈98) |
 
