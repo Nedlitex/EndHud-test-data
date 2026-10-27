@@ -1,0 +1,7 @@
+[
+  { "file": "mifu-60s.png", "slots": [ { "slot": 1, "ready": false, "progress": 0.35 }, { "slot": 2, "ready": true }, { "slot": 3, "ready": true }, { "slot": 4, "ready": true } ] },
+  { "file": "mifu-66s.png", "whiteOut": true, "slots": [ { "slot": 1, "ready": false } ] },
+  { "file": "mifu-103s.png", "slots": [ { "slot": 1, "ready": false, "progress": 0.94 } ] },
+  { "file": "mifu-114_3s.png", "slots": [ { "slot": 1, "ready": true }, { "slot": 4, "ready": true } ] },
+  { "file": "mifu-120s.png", "slots": [ { "slot": 1, "ready": false, "progress": 0.0 }, { "slot": 4, "ready": true } ] }
+]
