@@ -68,3 +68,26 @@ Total tests: 8
 ```
 
 The light effect left 0.12 white where the icon is; a ready grey circle's icon is 0.45-0.59.
+
+## Perturbation (after the fix)
+
+The reader set back to the one before the fix, the tests otherwise as they are (Debug):
+
+```
+  Failed EndHud.Vision.Tests.PhysicalUltimateTests.Nearly_full_charge [57 ms]
+  Failed EndHud.Vision.Tests.PhysicalUltimateTests.Ready_right_after_filling [24 ms]
+  Failed EndHud.Vision.Tests.PhysicalUltimateTests.Charging_over_a_light_floor [21 ms]
+  Failed EndHud.Vision.Tests.PhysicalUltimateTests.Empty_again_after_the_cast [18 ms]
+  Failed EndHud.Vision.Tests.PhysicalUltimateTests.Ready_next_to_coloured_circles_charging [24 ms]
+  Failed EndHud.Vision.Tests.PhysicalUltimateTests.Three_ready_and_one_about_a_third_charged [21 ms]
+Failed!  - Failed:     6, Passed:     2, Skipped:     0, Total:     8, Duration: 153 ms - EndHud.Vision.Tests.dll (net8.0)
+```
+
+(The two that pass are the guards: nothing grey is read at all.) Only the white-out guard taken out
+(a cream arc no longer has to be lighter than the circle's centre):
+
+```
+[xUnit.net 00:00:00.78]       slot 1 read as 1.00 charged
+  Failed EndHud.Vision.Tests.PhysicalUltimateTests.A_white_out_is_not_a_full_charge [22 ms]
+   slot 1 read as 1.00 charged
+```
