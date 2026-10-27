@@ -13,10 +13,15 @@ By eye:
 | File | Time | Link |
 |---|---|---|
 | `link-062_75.jpg` | 62.75 s | not there (just before it appears) |
-| `link-064_00.jpg` | 64.00 s | 1 (no number) |
-| `link-065_00.jpg` | 65.00 s | 1 (no number) |
+| `link-064_00.jpg` | 64.00 s | 1 (no number), at the dim end of its pulse: the sword grey, not white |
+| `link-064_10.jpg` | 64.10 s | 1 (no number) |
+| `link-065_00.jpg` | 65.00 s | 1 (no number), at the dim end of its pulse |
+| `link-065_10.jpg` | 65.10 s | 1 (no number) |
 | `link-065_50.jpg` | 65.50 s | 1 (no number) |
 | `link-067_25.jpg` | 67.25 s | not there (it has ended) |
+
+The icon pulses about once a second; 64.00 s and 65.00 s are two of its dim frames (each dip lasts a few frames,
+under one reading), so one frame alone can't tell Link is there. They must not read as clearly absent.
 
 EndHud's own gauge row is drawn above this area in the recording (its labels touch the crops' top edge); it does
 not cover Link's icon.
