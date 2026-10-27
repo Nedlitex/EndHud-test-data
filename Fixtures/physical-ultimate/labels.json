@@ -3,5 +3,8 @@
   { "file": "mifu-66s.png", "whiteOut": true, "slots": [ { "slot": 1, "ready": false } ] },
   { "file": "mifu-103s.png", "slots": [ { "slot": 1, "ready": false, "progress": 0.94 } ] },
   { "file": "mifu-114_3s.png", "slots": [ { "slot": 1, "ready": true }, { "slot": 4, "ready": true } ] },
-  { "file": "mifu-120s.png", "slots": [ { "slot": 1, "ready": false, "progress": 0.0 }, { "slot": 4, "ready": true } ] }
+  { "file": "mifu-120s.png", "slots": [ { "slot": 1, "ready": false, "progress": 0.0 }, { "slot": 4, "ready": true } ] },
+  { "file": "rms-94s.png", "lightEffect": true, "slots": [ { "slot": 4, "ready": false, "progress": 0.93 } ] },
+  { "file": "rms-107_5s.png", "slots": [ { "slot": 1, "ready": false, "progress": 0.0 }, { "slot": 2, "ready": false, "progress": 0.3 }, { "slot": 3, "ready": false, "progress": 0.5 }, { "slot": 4, "ready": true } ] },
+  { "file": "rms-140s.png", "slots": [ { "slot": 4, "ready": false, "progress": 0.18 } ] }
 ]

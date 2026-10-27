@@ -1,11 +1,15 @@
 # physical-ultimate
 
 Ultimate circles of Physical operators, whose ultimate is drawn in a neutral cream instead of an
-element colour. One of the owner's recordings, test_mifu.mp4 (3838 × 2158, 30 fps, keyboard and
-mouse): a squad of four Physical operators, Mi Fu (slot 1), Chen Qianyu, Pogranichnik and Lifeng.
-Only the bottom-right 940 × 470 of each frame is kept (the ultimate circles and the battle-skill
-buttons; no UID there), pasted onto a black frame of the recording's size so the readers find the
-circles where they are on screen. The file name is the second the frame was taken at (`ffmpeg -ss`).
+element colour. Two of the owner's recordings, keyboard and mouse. Only the bottom-right 940 × 470
+of each frame is kept (the ultimate circles and the battle-skill buttons; no UID there), pasted
+onto a black frame of the recording's size so the readers find the circles where they are on
+screen. The file name is the clip and the second the frame was taken at (`ffmpeg -ss`).
+
+| Prefix | Recording | Size | Squad |
+|---|---|---|---|
+| `mifu-` | test_mifu.mp4 | 3838 × 2158 | four Physical operators: Mi Fu (slot 1), Chen Qianyu, Pogranichnik, Lifeng |
+| `rms-` | test_rossi_mifu_si.mp4 | 3836 × 2158 | Mi Fu in slot 4 (cream), Si in slot 2 (cyan), red ultimates in slots 1 and 3 |
 
 | File | What it shows (by eye, enlarged) |
 |---|---|
@@ -14,6 +18,9 @@ circles where they are on screen. The file name is the second the frame was take
 | `mifu-103s.png` | slot 1 nearly full (≈0.94) |
 | `mifu-114_3s.png` | slot 1 just turned ready (enlarged ring, key tag "1"); slot 4 ready |
 | `mifu-120s.png` | slot 1 empty again after the cast; slot 4 ready |
+| `rms-94s.png` | slot 4 charging (≈0.93) under a pale cyan figure from another operator's ultimate, which lights the disc and the ring round it. Not ready |
+| `rms-107_5s.png` | slot 4 ready (key tag "4"); slot 2 cyan ≈0.3, slot 3 red ≈0.5, slot 1 empty |
+| `rms-140s.png` | slot 4 charging ≈0.18, over a light floor (its empty centre is a lighter grey, ≈98) |
 
 `labels.json` holds the same, per slot (1-based): `ready`, and `progress` where it is charging.
 
@@ -40,3 +47,24 @@ Total tests: 5
 The charge read 0 and every ready circle gave no reading at all. The white-out test passed only
 because nothing cream was read: it is there to keep the fix from reading the washed-out circle as
 full.
+
+The `rms-` frames came after that first fix, which accepted a grey ready disc on the icon test
+the coloured circles use (white share >= 0.08). Against it (Debug):
+
+```
+[xUnit.net 00:00:00.71]       slot 4 read as ready
+  Passed EndHud.Vision.Tests.PhysicalUltimateTests.Nearly_full_charge [55 ms]
+  Passed EndHud.Vision.Tests.PhysicalUltimateTests.Ready_right_after_filling [27 ms]
+  Passed EndHud.Vision.Tests.PhysicalUltimateTests.Charging_over_a_light_floor [27 ms]
+  Failed EndHud.Vision.Tests.PhysicalUltimateTests.A_light_effect_over_a_charging_circle_is_not_ready [28 ms]
+   slot 4 read as ready
+  Passed EndHud.Vision.Tests.PhysicalUltimateTests.Empty_again_after_the_cast [20 ms]
+  Passed EndHud.Vision.Tests.PhysicalUltimateTests.Ready_next_to_coloured_circles_charging [35 ms]
+  Passed EndHud.Vision.Tests.PhysicalUltimateTests.A_white_out_is_not_a_full_charge [21 ms]
+  Passed EndHud.Vision.Tests.PhysicalUltimateTests.Three_ready_and_one_about_a_third_charged [23 ms]
+Total tests: 8
+     Passed: 7
+     Failed: 1
+```
+
+The light effect left 0.12 white where the icon is; a ready grey circle's icon is 0.45-0.59.
