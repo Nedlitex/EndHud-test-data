@@ -1,6 +1,10 @@
 # Squad screenshots
 
-One 4K screenshot per squad, nine squads covering all 32 playable operators (some appear twice).
+One 4K screenshot per squad, nine squads covering 32 of the 34 playable operators (some appear twice),
+and for Si two frames of the owner's 4K Si recording, kept in
+[`portrait-counters`](../portrait-counters/README.md) (UID already blacked out): `si-40s` with her
+damage stacks drawn on her portrait and `si-70s` without. Her other slots aren't labelled (`""`), so
+they give no reference. Argent Flow has no screenshot yet.
 Only the squad panel is kept (bottom-left 1100×430, the rest black) and the ping/UID line under
 it is blacked out. `squads.json` names the operator in each slot, by eye against the wiki avatars.
 

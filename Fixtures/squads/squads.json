@@ -7,5 +7,7 @@
   { "file": "squad-6.png", "slots": ["Ardelia", "Ember", "Gilberta", "Tangtang"] },
   { "file": "squad-7.png", "slots": ["Rossi", "Zhuang_Fangyi", "Mi_Fu", "Camille"] },
   { "file": "squad-8.png", "slots": ["Camille", "Arcane", "Liino", "Typhoeus"] },
-  { "file": "squad-9.png", "slots": ["Purrchena", "Typhoeus", "Liino", "Arcane"] }
+  { "file": "squad-9.png", "slots": ["Purrchena", "Typhoeus", "Liino", "Arcane"] },
+  { "file": "../portrait-counters/si-40s.jpg", "slots": ["Si", "", "", ""] },
+  { "file": "../portrait-counters/si-70s.jpg", "slots": ["Si", "", "", ""] }
 ]
