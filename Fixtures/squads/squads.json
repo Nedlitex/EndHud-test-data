@@ -9,5 +9,7 @@
   { "file": "squad-8.png", "slots": ["Camille", "Arcane", "Liino", "Typhoeus"] },
   { "file": "squad-9.png", "slots": ["Purrchena", "Typhoeus", "Liino", "Arcane"] },
   { "file": "../portrait-counters/si-40s.jpg", "slots": ["Si", "", "", ""] },
-  { "file": "../portrait-counters/si-70s.jpg", "slots": ["Si", "", "", ""] }
+  { "file": "../portrait-counters/si-70s.jpg", "slots": ["Si", "", "", ""] },
+  { "file": "argent-flow-9s.jpg", "slots": ["Argent_Flow", "", "", ""] },
+  { "file": "argent-flow-60s.jpg", "slots": ["Argent_Flow", "", "", ""] }
 ]
