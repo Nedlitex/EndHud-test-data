@@ -1,0 +1,146 @@
+[
+  {
+    "file": "skill-18_5s.jpg",
+    "icon": "Original"
+  },
+  {
+    "file": "skill-21s.jpg",
+    "icon": "Changed",
+    "changedAt": 20.5,
+    "secondsLeft": 19.5
+  },
+  {
+    "file": "skill-21_25s.jpg",
+    "icon": "Changed",
+    "changedAt": 20.5,
+    "secondsLeft": 19.25
+  },
+  {
+    "file": "skill-22s.jpg",
+    "icon": "Original"
+  },
+  {
+    "file": "skill-80s.jpg",
+    "icon": "Original"
+  },
+  {
+    "file": "skill-82s.jpg",
+    "icon": "Original"
+  },
+  {
+    "file": "skill-83s.jpg",
+    "icon": "Changed",
+    "changedAt": 82.9,
+    "secondsLeft": 19.9
+  },
+  {
+    "file": "skill-83_5s.jpg",
+    "icon": "Changed",
+    "changedAt": 82.9,
+    "secondsLeft": 19.4
+  },
+  {
+    "file": "skill-84_5s.jpg",
+    "icon": "Changed",
+    "changedAt": 82.9,
+    "secondsLeft": 18.4
+  },
+  {
+    "file": "skill-86s.jpg",
+    "icon": "Changed",
+    "changedAt": 82.9,
+    "secondsLeft": 16.9
+  },
+  {
+    "file": "skill-88s.jpg",
+    "icon": "Changed",
+    "changedAt": 82.9,
+    "secondsLeft": 14.9
+  },
+  {
+    "file": "skill-89_75s.jpg",
+    "icon": "Changed",
+    "changedAt": 82.9,
+    "secondsLeft": 13.15
+  },
+  {
+    "file": "skill-92s.jpg",
+    "icon": "Changed",
+    "changedAt": 82.9,
+    "secondsLeft": 10.9
+  },
+  {
+    "file": "skill-92_75s.jpg",
+    "icon": "Changed",
+    "changedAt": 82.9,
+    "secondsLeft": 10.15
+  },
+  {
+    "file": "skill-95_5s.jpg",
+    "icon": "Original"
+  },
+  {
+    "file": "skill-110_25s.jpg",
+    "icon": "Original"
+  },
+  {
+    "file": "skill-115s.jpg",
+    "icon": "Changed",
+    "changedAt": 114.5,
+    "secondsLeft": 19.5
+  },
+  {
+    "file": "skill-116s.jpg",
+    "icon": "Changed",
+    "changedAt": 114.5,
+    "secondsLeft": 18.5
+  },
+  {
+    "file": "skill-117_75s.jpg",
+    "icon": "Changed",
+    "changedAt": 114.5,
+    "secondsLeft": 16.75
+  },
+  {
+    "file": "skill-119_5s.jpg",
+    "icon": "Changed",
+    "changedAt": 114.5,
+    "secondsLeft": 15.0
+  },
+  {
+    "file": "skill-121s.jpg",
+    "icon": "Changed",
+    "changedAt": 114.5,
+    "secondsLeft": 13.5
+  },
+  {
+    "file": "skill-123s.jpg",
+    "icon": "Original"
+  },
+  {
+    "file": "skill-134s.jpg",
+    "icon": "Original"
+  },
+  {
+    "file": "skill-137_5s.jpg",
+    "icon": "Changed",
+    "changedAt": 136.9,
+    "secondsLeft": 19.4
+  },
+  {
+    "file": "skill-138_5s.jpg",
+    "icon": "Changed",
+    "changedAt": 136.9,
+    "secondsLeft": 18.4
+  },
+  {
+    "file": "skill-139_5s.jpg",
+    "icon": "Changed",
+    "changedAt": 136.9,
+    "secondsLeft": 17.4
+  },
+  {
+    "file": "skill-141s.jpg",
+    "icon": "Original"
+  }
+]
